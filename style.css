@@ -69,3 +69,87 @@ li button:last-child {
     border: none;
     border-radius: 5px;
 }
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.container {
+
+    background: white;
+    width: 400px;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+
+}
+
+
+h1 {
+
+    text-align: center;
+    color: #333;
+
+}
+
+
+input {
+
+    width: 65%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+
+}
+
+
+button {
+
+    padding: 12px 15px;
+    border: none;
+    border-radius: 8px;
+    background: #667eea;
+    color: white;
+    cursor: pointer;
+
+}
+
+
+button:hover {
+
+    opacity: 0.8;
+
+}
+
+
+li {
+
+    list-style: none;
+    background: #f4f4f4;
+    margin-top: 10px;
+    padding: 12px;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+
+li button {
+
+    background: #e74c3c;
+
+}
+
+
+li button:hover {
+
+    background: #c0392b;
+
+}
