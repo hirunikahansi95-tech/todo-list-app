@@ -27,3 +27,45 @@ button{
 li{
     margin-top:10px;
 }
+li {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li button {
+    background: red;
+    color: white;
+    border: none;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+li {
+    margin-top: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+li button {
+    margin-left: 5px;
+    padding: 5px 10px;
+}
+
+
+li button:first-of-type {
+    background: green;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+
+li button:last-child {
+    background: red;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
